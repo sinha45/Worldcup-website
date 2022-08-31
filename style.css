@@ -71,28 +71,60 @@ body{
        
        
 }
-.option-part{
-    width: 20%;
-    height: 50%;
-    margin-top: 10%;
-    background-color: black;
-}
-
 /* second-part */
 
 
+.option-part{
+    width: 20%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 35px;
+    border-radius: 10px;
+    background-color: black;
+}
+.button-style a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.button-decoration h4{
+    width: 150px;
+    border: 2px;
+    background-color: white;
+    text-align: center;
+    margin-left: 28px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    
+}
+#blog-style h4{
+   
+    color: white;
+    background-color: red;
+  
+}
+
+
 .Blogs{
-    width: 100%;
+
+    width: 80%;
     margin-top:10%;
     margin-left: 70px;
-}  
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 8px;
+} 
+
 .div-modify{
-    width: 25%;
-    border: 2px solid gray;
+    width: 78%;
+    border: 2px solid rgb(232, 226, 226);
     border-radius: 10px;
 }
 .img-style img{
-         width: 245px;
+         width: 237px;
          height: 140px;
          margin-bottom: 15px;
 }
@@ -113,13 +145,37 @@ body{
     padding-top: 3px;
 
 }
+.transfer-sub{
+    padding-left: 8px;
+    text-align: left ;
+}
 .transfer-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.transfer-sub{
-    padding-left: 10px;
-    text-align: left ;
+.icon-clock{
+    font-size: 15px;
+    padding-left: 8px;
+    padding-bottom: 10px;
 }
+.hr-style{
+    font-size: 15px;
+    padding-left: 8px;
+}
+.comment{
+    padding-right: 90px;
+    padding-bottom: 10px;
+    
+}
+.icon-comment{
+    font-size: 15px;
+    justify-content: space-between;
+}
+.tt-style{
+
+    font-size: 15px;
+    padding-right:50px ;
+}
+
 
