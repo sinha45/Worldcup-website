@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Noticia Text', serif;
+    
 }
 
 .container1{
@@ -177,5 +178,32 @@ body{
     font-size: 15px;
     padding-right:50px ;
 }
-
-
+.footer{
+    width: 100%;
+    background-color: rgb(13, 12, 12);
+    margin-top: 120px;
+}
+.goal h1{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 30px;
+}
+hr{
+    width: 80%;
+    border: 1px solid rgb(135, 132, 132);;
+}
+.footer-style {
+      
+      margin-left: 25%;
+       
+}
+.footer-style h5{
+    color: rgb(198, 191, 191);
+    text-align: center;
+     padding:10px 10px 10px 20px;
+     margin-bottom: 10%;
+     display: inline-block;
+     font-size: 12px;
+}
